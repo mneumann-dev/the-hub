@@ -1,4 +1,7 @@
 import UiNavbar from './components/ui-navbar'
+import './components/ui-theme'
+import './components/ui-help'
+import './components/ui-scrollup'
 import data from './projects'
 
 const projects = data.sort((a, b) => {
