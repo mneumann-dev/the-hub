@@ -126,6 +126,7 @@ textarea {
 .project p {
   width: 90%;
 }
+.project details summary { cursor: pointer; outline: none; }
 .project a {
   color: inherit;
   text-decoration: none;
