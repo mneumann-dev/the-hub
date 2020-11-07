@@ -34,7 +34,7 @@ const data = [
   {
     name: 'the-hub (YOU ARE HERE)',
     description: 'The Hub is a website that is made dynamic with the use of web components and standard JavaScript.',
-    image: 'https://ksthehub.s3-us-west-1.amazonaws.com/img/website%400.1x.jpg',
+    image: 'https://ksthehub.s3-us-west-1.amazonaws.com/img/the-hub%400.1x.jpg',
     href: {
       git: 'https://github.com/krabfish/the-hub',
       site: 'https://krabfishstudios.com'

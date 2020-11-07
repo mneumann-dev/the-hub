@@ -2,7 +2,12 @@
   "name": "the-hub",
   "version": "0.0.1",
   "description": "My personal website that ties it altogether.",
-  "keywords": ["html", "css", "javascript", "web components"],
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "web components"
+  ],
   "license": "",
   "author": "Michael Neumann",
   "scripts": {
