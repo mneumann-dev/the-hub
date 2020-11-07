@@ -4,7 +4,7 @@
   "description": "My personal website that ties it altogether.",
   "keywords": ["html", "css", "javascript", "web components"],
   "license": "",
-  "author": "",
+  "author": "Michael Neumann",
   "scripts": {
     "build": "parcel build index.html",
     "build:gh-pages": "parcel build index.html --public-url='./'",
