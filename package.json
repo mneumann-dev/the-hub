@@ -1,12 +1,13 @@
 {
-  "name": " ",
+  "name": "the-hub",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "description": "My personal website that ties it altogether.",
+  "keywords": ["html", "css", "javascript", "web components"],
   "license": "",
   "author": "",
   "scripts": {
     "build": "parcel build index.html",
+    "build:gh-pages": "parcel build index.html --public-url='./'",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
