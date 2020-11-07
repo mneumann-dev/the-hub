@@ -7,7 +7,6 @@ button {
   bottom: 1rem;
   border: none;
   border-radius: 50%;
-  box-shadow: 0 8px 12px 0 rgba(51, 51, 51, 0.5);
   margin: 0;
   padding: 4px 6px;
   position: fixed;

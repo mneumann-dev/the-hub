@@ -21,10 +21,6 @@ projects.forEach(project => {
       <img class="img-fluid" src="${project.image}" alt="Project" width="336" height="197">
       <h2>${project.name}</h2>
       <p>${project.description}</p>
-      <details class="text-center p-2">
-        <summary>Read more</summary>
-        <article>${project.description}</article>
-      </details>
       <div class="links d-flex align-items-center justify-content-center w-100">
         <a class="d-flex align-items-center" href="${project.href.git}" target="_blank" rel="noopener noreferrer">Git
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M7.5 4.5L6.44 5.56 9.88 9l-3.44 3.44L7.5 13.5 12 9z"/></svg>
