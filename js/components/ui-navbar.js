@@ -54,7 +54,7 @@ input:focus {
   text-shadow: var(--btn-drop-shadow);
 }
 .brand span { display: none;  }
-.dash { position: relative; }
+.dash { margin: 0 auto; position: relative; }
 .search--active {
   max-width: 175px !important;
   pointer-events: auto;
@@ -79,7 +79,7 @@ input:focus {
   <header class="flex-center-center">
     <a class="brand flex-center-center" href="/" aria-label="Home">MN<span>EUMANN</span></a>
 
-    <div class="dash flex-center-center" style="margin: 0 auto">
+    <div class="dash flex-center-center">
 
       <div class="links flex-center-center">
         <a class="flex-center-center" href="https://github.com/mneumann-dev" aria-label="Github" target="_blank" rel="noopener noreferrer" title="Github">
