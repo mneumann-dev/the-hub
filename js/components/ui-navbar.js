@@ -36,6 +36,7 @@ input {
   padding: 0.375rem 1.2rem;
   border: none;
   border-radius: 4px;
+  pointer-events: none;
   opacity: 0;
   transition: all 0.5s ease-in-out;
   top: -4px;
@@ -56,6 +57,7 @@ input:focus {
 .dash { position: relative; }
 .search--active {
   max-width: 175px !important;
+  pointer-events: auto;
   opacity: 1;
 }
 .links { transition: all 1s ease-in-out; }
