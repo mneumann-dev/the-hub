@@ -5,6 +5,7 @@ template.innerHTML = `
 button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -13,7 +14,7 @@ button {
   transform: translateX(3.5rem);
   transition: transform 0.5s ease-in-out;
 }
-svg { height: auto; width: 18pt; }
+svg { filter: drop-shadow(var(--btn-drop-shadow)); height: auto; width: 18pt; }
 @media only screen and (min-width: 48rem) {
   button { right: 1rem; }
 }
@@ -56,12 +57,12 @@ class UiTheme extends HTMLElement {
   _toggleDarkTheme () {
     this.element.classList.toggle('dark')
     this.element.querySelectorAll('.project > div').forEach(element => {
-      element.classList.toggle('dark__offset')
+      element.classList.toggle('dark-offset')
       element.querySelectorAll('div').forEach(child => {
-        child.classList.toggle('dark__ignore')
+        child.classList.toggle('dark-ignore')
       })
       element.querySelectorAll('span').forEach(child => {
-        child.classList.toggle('dark__offset')
+        child.classList.toggle('dark-offset')
       })
     })
     this._setLocalStorage()

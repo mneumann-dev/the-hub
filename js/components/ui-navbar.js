@@ -3,7 +3,7 @@ const template = document.createElement('template')
 template.innerHTML = `
 <style>
 .navbar {
-  background-color: rgba(51, 51, 51, 1);
+  background-color: var(--jet);
   position: fixed;
   top: 0;
   transition: box-shadow 0.25s ease-in-out;
@@ -15,8 +15,8 @@ header {
   justify-content: space-between !important;
   padding: 0 0.5rem;
 }
-button { background-color: transparent; border: none; border-radius: 4px; margin: 0; padding: 0; outline: none; }
-svg { fill: #FFFFFF; }
+button { background-color: transparent; border: none; border-radius: 4px; cursor: pointer; margin: 0; padding: 0; outline: none; }
+svg { filter: drop-shadow(var(--btn-drop-shadow)); fill: #FFFFFF; }
 
 .clear-btn {
   display: none;
@@ -25,7 +25,7 @@ svg { fill: #FFFFFF; }
   right: 2.8rem;
   z-index: 2;
 }
-.clear-btn svg { fill: rgba(51, 51, 51, 1) !important; }
+.clear-btn svg { fill: var(--jet) !important; }
 input {
   background-color: #FFFFFF;
   color: #000000;
@@ -50,6 +50,7 @@ input:focus {
   font-family: 'Avenir Next DemiBold', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   text-decoration: none;
+  text-shadow: var(--btn-drop-shadow);
 }
 .brand span { display: none;  }
 .dash { position: relative; }
