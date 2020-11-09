@@ -49,7 +49,7 @@ svg { filter: drop-shadow(var(--btn-drop-shadow)) !important; height: auto; widt
 }
 </style>
 <div class="help">
-  <button class="close-btn" aria-label="Close">
+  <button class="close-btn" aria-label="Close" title="Close">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"/></svg>
   </button>
   <div class="content">
@@ -66,7 +66,7 @@ svg { filter: drop-shadow(var(--btn-drop-shadow)) !important; height: auto; widt
     <span>&dash; Michael</span>
   </div>
 </div>
-<button class="open-btn">
+<button class="open-btn" title="Toggle help menu">
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g fill-rule="nonzero"><path fill="#000" d="M10,1 C5.032,1 1,5.032 1,10 C1,14.968 5.032,19 10,19 C14.968,19 19,14.968 19,10 C19,5.032 14.968,1 10,1 Z"/><path fill="#9ACD32" d="M10,0 C4.48,0 0,4.48 0,10 C0,15.52 4.48,20 10,20 C15.52,20 20,15.52 20,10 C20,4.48 15.52,0 10,0 Z M11,17 L9,17 L9,15 L11,15 L11,17 Z M13.07,9.25 L12.17,10.17 C11.45,10.9 11,11.5 11,13 L9,13 L9,12.5 C9,11.4 9.45,10.4 10.17,9.67 L11.41,8.41 C11.78,8.05 12,7.55 12,7 C12,5.9 11.1,5 10,5 C8.9,5 8,5.9 8,7 L6,7 C6,4.79 7.79,3 10,3 C12.21,3 14,4.79 14,7 C14,7.88 13.64,8.68 13.07,9.25 Z"/></g></g></svg>
 </svg></button>
 `

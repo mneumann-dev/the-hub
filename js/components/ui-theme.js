@@ -19,7 +19,7 @@ svg { filter: drop-shadow(var(--btn-drop-shadow)); height: auto; width: 18pt; }
   button { right: 1rem; }
 }
 </style>
-<button></button>
+<button title="Toggle theme"></button>
 `
 
 class UiTheme extends HTMLElement {
