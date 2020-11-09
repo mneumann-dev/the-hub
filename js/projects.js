@@ -29,7 +29,7 @@ const data = [
       git: 'https://github.com/mneumann-dev/neu-to-dos',
       site: 'https://mneumann-dev.github.io/neu-to-dos/'
     },
-    tags: ['#webcomponents', '#bootstrap']
+    tags: ['#html', '#webcomponents', '#bootstrap']
   },
   {
     name: 'the-hub (YOU ARE HERE)',
