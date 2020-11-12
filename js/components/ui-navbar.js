@@ -21,8 +21,8 @@ svg { filter: drop-shadow(var(--btn-drop-shadow)); fill: #FFFFFF; height: auto; 
 .clear-btn {
   display: none;
   position: absolute;
-  top: 4px;
-  right: 2.8rem;
+  top: 1px;
+  right: 2.7rem;
   z-index: 2;
 }
 .clear-btn svg { fill: var(--jet) !important; }
