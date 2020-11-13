@@ -192,6 +192,7 @@ textarea {
   color: #FFFFFF;
   padding: 2rem 0.5rem;
 }
+.about h1 { margin-bottom: 0; }
 .about p {
   width: 100%;
 }
