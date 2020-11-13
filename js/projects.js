@@ -38,6 +38,16 @@ const data = [
       site: '#'
     },
     tags: ['#html', '#css', '#webcomponents']
+  },
+  {
+    name: 'giamedical-uc-page',
+    description: 'A simple under construction webpage with a smooth globe animation.',
+    image: 'https://ksthehub.s3-us-west-1.amazonaws.com/img/giamedical-uc-page%400.1x.jpg',
+    href: {
+      git: 'https://github.com/mneumann-dev/giamedical-uc-page',
+      site: 'https://mneumann-dev.github.io/giamedical-uc-page/'
+    },
+    tags: ['#html', '#css']
   }
 ]
 
