@@ -48,6 +48,16 @@ const data = [
       site: 'https://mneumann-dev.github.io/giamedical-uc-page/'
     },
     tags: ['#html', '#css']
+  },
+  {
+    name: 'remco-demo',
+    description: 'A website demo for REMCO. This is a single page demo design to be dark and tough. It features the use of web components.',
+    image: 'https://ksthehub.s3-us-west-1.amazonaws.com/img/remco-demo%400.1x.jpg',
+    href: {
+      git: 'https://github.com/mneumann-dev/remco',
+      site: 'https://mneumann-dev.github.io/remco/'
+    },
+    tags: ['#html', '#css', '#webcomponents']
   }
 ]
 
