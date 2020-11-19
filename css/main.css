@@ -122,9 +122,9 @@ textarea {
 
 /* PROJECTS
 * ================================================================================================================== */
+.project { margin: 0.5rem 0; }
 .project > div {
   background-color: #FBFBFD;
-  border-radius: 4px;
   box-shadow: var(--drop-shadow);
 }
 .project img {
@@ -161,6 +161,10 @@ textarea {
 .project--active-one { height: 100vh; width: 100vw; }
 .project--active-two { height: 100vh; }
 .project--active-three { width: 100vw; }
+@media only screen and (min-width: 48rem) {
+  .project { margin: 0; }
+  .project div { border-radius: 4px; }
+}
 
 /* ABOUT
 * ================================================================================================================== */
@@ -188,6 +192,7 @@ textarea {
   color: #FFFFFF;
   padding: 2rem 0.5rem;
 }
+.about h1 { margin-bottom: 0; }
 .about p {
   width: 100%;
 }

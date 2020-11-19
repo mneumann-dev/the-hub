@@ -16,13 +16,13 @@ header {
   padding: 0 0.5rem;
 }
 button { background-color: transparent; border: none; border-radius: 4px; cursor: pointer; margin: 0; padding: 0; outline: none; }
-svg { filter: drop-shadow(var(--btn-drop-shadow)); fill: #FFFFFF; }
+svg { filter: drop-shadow(var(--btn-drop-shadow)); fill: #FFFFFF; height: auto; width: 18pt; }
 
 .clear-btn {
   display: none;
   position: absolute;
-  top: 4px;
-  right: 2.8rem;
+  top: 1px;
+  right: 2.7rem;
   z-index: 2;
 }
 .clear-btn svg { fill: var(--jet) !important; }
@@ -62,7 +62,6 @@ input:focus {
 }
 .links { transition: all 1s ease-in-out; }
 .links a { display: flex; padding: 0 0.5rem; }
-.links a svg { height: auto; width: 18pt; }
 .flex-center-center { display: flex; align-items: center; justify-content: center; }
 
 @media only screen and (min-width: 36rem) {
@@ -71,13 +70,17 @@ input:focus {
 }
 @media only screen and (min-width: 48rem) {
   .brand { position: absolute; }
-  .brand span { display: inline; }
+  .brand span { display: inline; padding-top: 0.1rem; }
 }
 </style>
 <div class="navbar">
 
   <header class="flex-center-center">
-    <a class="brand flex-center-center" href="/" aria-label="Home">MN<span>EUMANN</span></a>
+<!--    <a class="brand flex-center-center" href="/" aria-label="Home">MN<span>EUMANN</span></a>-->
+    <a class="brand flex-center-center" href="/" aria-label="Home">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512"><defs><path id="qGjIXa" d="M41.0221632,-1.65734449e-15 L470.977837,1.65734449e-15 C485.242137,-9.62964878e-16 490.414716,1.48520978 495.629531,4.27412326 C500.844346,7.06303674 504.936963,11.1556539 507.725877,16.3704687 C510.51479,21.5852836 512,26.7578634 512,41.0221632 L512,470.977837 C512,485.242137 510.51479,490.414716 507.725877,495.629531 C504.936963,500.844346 500.844346,504.936963 495.629531,507.725877 C490.414716,510.51479 485.242137,512 470.977837,512 L41.0221632,512 C26.7578634,512 21.5852836,510.51479 16.3704687,507.725877 C11.1556539,504.936963 7.06303674,500.844346 4.27412326,495.629531 C1.48520978,490.414716 6.41976585e-16,485.242137 -1.10489633e-15,470.977837 L1.10489633e-15,41.0221632 C-6.41976585e-16,26.7578634 1.48520978,21.5852836 4.27412326,16.3704687 C7.06303674,11.1556539 11.1556539,7.06303674 16.3704687,4.27412326 C21.5852836,1.48520978 26.7578634,9.62964878e-16 41.0221632,-1.65734449e-15 Z"/><path id="qGjIXc" d="M0 0H325V357H0z"/></defs><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><mask id="qGjIXb" fill="#fff"><use xlink:href="#qGjIXa"/></mask><use fill="#FF5A00" xlink:href="#qGjIXa"/><g mask="url(#qGjIXb)"><g transform="translate(93.000000, 80.000000)"><mask id="qGjIXd" fill="#fff"><use xlink:href="#qGjIXc"/></mask><path fill="#FFF" fill-rule="nonzero" stroke="none" d="M70.6237425 294L90.5684105 160.228814 92.2032193 160.228814 112.801811 294 166.096579 294 234.43159 160.228814 236.39336 160.228814 210.56338 294 284.129779 294 325 63 219.391348 63 159.230382 189.59322 157.595573 189.59322 137.323944 63 40.8702213 63 0 294z" mask="url(#qGjIXd)"/></g></g></g></svg>
+      <span>NEUMANN</span>
+    </a>
 
     <div class="dash flex-center-center">
 
